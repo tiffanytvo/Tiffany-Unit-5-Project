@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+    background-color: #88F2EB;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+input{
+  height: 30px;
+  font-family: 'Koulen', cursive;
+  font-size: 20px;
+}
+
+button{
+  margin: 20px;
+  font-family: 'Koulen', cursive;
+ 
+}
+h1{
+  font-family: 'Bungee', cursive;
+  color: #036D0A;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+
+h4{
+  font-family: 'Koulen', cursive;
+  font-size: 25px;
+  color: #B71706
+}
+.killua{
+  width: 200px;
+}
+h5{
+  font-size: 20px;
+}
+.questions{
+  display: none; 
+}
+
+.answer-one{
+  display: none;
+}
+
+.answer-two{
+  display: none;
+}
+
+.answer-three{
+  display: none;
+}
+
+.answer-four{
+  display: none;
+}
+
+.answer-five{
+  display: none;
+}
+
+@keyframes example {
+  0%   {font-size: 37px;}
+  25%  {font-size: 40px;}
+  50%  {font-size: 45px;}
+  75%  {font-size: 40px;}
+  100% {font-size: 37px;}
+  }
+h6{
+  font-size:13px;
+}
